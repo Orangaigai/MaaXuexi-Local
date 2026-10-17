@@ -1,0 +1,17 @@
+/.venv/
+/logs/
+/debug/
+/config/*
+!/config/*.example.json
+!/config/source-manifest.json
+**/__pycache__/
+*.py[cod]
+*.sqlite3*
+*.dpapi
+*.lnk
+*.log
+.env
+.env.*
+/.coverage
+/dist/
+/build/

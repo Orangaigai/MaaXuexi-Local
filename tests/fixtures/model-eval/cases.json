@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "purpose": "Synthetic transport fixtures only; not an accuracy or speed benchmark",
+  "small_sample_not_a_model_ranking": true,
+  "cases": [
+    {
+      "id": "synthetic-transfer-hint",
+      "kind": "daily",
+      "question_type": "单选题",
+      "question": "通过汇款的方式向对方转账，发现被骗后，在确定资金还没有到达对方账上的时候，可以马上电话联系银行工作人员，并报案，这样有可能将钱追回。",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "hint": "如果是通过汇款的方式向对方转账，发现被骗后，在确定资金还没有到达对方账上的时候，可以马上电话联系银行工作人员，并报案，这样有可能将钱追回。",
+      "expected": [
+        "A"
+      ],
+      "deadline_seconds": 6,
+      "images": [
+        {
+          "file": "daily-question.png",
+          "sha256": "faf00a1ca97b1f0da4bae27a8b68ea6e4613fc2ffe39a0847b7914929785cf94"
+        },
+        {
+          "file": "daily-hint.png",
+          "sha256": "e87f6e579e7e3e269dcb33b84ad346abe60b672125305be98594bc2c70e4ca81"
+        }
+      ],
+      "evidence": {
+        "kind": "app_hint",
+        "description": "Synthetic label for offline API/evidence validation tests; not a captured user session.",
+        "images": [
+          {
+            "file": "daily-hint.png",
+            "sha256": "e87f6e579e7e3e269dcb33b84ad346abe60b672125305be98594bc2c70e4ca81"
+          }
+        ]
+      }
+    },
+    {
+      "id": "synthetic-dehua-feedback",
+      "kind": "timed",
+      "question_type": "单选题",
+      "question": "德化窑是始烧于____的民间瓷窑，位于福建德化县，以低铝高硅的“象牙白”为其代表作品而闻名于世。",
+      "options": {
+        "A": "元代",
+        "B": "宋代",
+        "C": "唐代",
+        "D": "明代"
+      },
+      "expected": [
+        "B"
+      ],
+      "deadline_seconds": 4,
+      "images": [
+        {
+          "file": "race-question.png",
+          "sha256": "2afc90270a9cfde1a4f1ef1a9ef0d736ebd4bd891cd57acfb82e4518c5321f7e"
+        }
+      ],
+      "evidence": {
+        "kind": "platform_feedback",
+        "description": "Synthetic label for offline API/evidence validation tests; not a captured user session.",
+        "images": [
+          {
+            "file": "race-feedback.png",
+            "sha256": "3c84560023f2b5c1c60ceb7897768306f2b5fba287c74f0d16e73ced94352ce7"
+          }
+        ]
+      }
+    }
+  ],
+  "synthetic": true
+}

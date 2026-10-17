@@ -1,0 +1,33 @@
+name: 故障反馈
+description: 报告可复现的安装、识别或执行问题
+title: "[Bug] "
+body:
+  - type: checkboxes
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 已查看文档和已有 Issue
+          required: true
+        - label: 已移除密钥、昵称、手机号、个人路径、二维码和验证画面
+          required: true
+  - type: input
+    attributes:
+      label: 项目版本或提交
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 环境
+      description: Windows、Python、MuMu、应用版本，以及截图尺寸
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 复现步骤、预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 必要的去敏日志
+      description: 只摘取相关片段，勿上传整个运行目录
+      render: text

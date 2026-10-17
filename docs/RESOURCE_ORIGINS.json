@@ -1,0 +1,251 @@
+{
+  "upstream_commit": "ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073",
+  "files": [
+    {
+      "path": "resource/image/A.png",
+      "upstream_blob": "b71b3bcd1e292121eb433fee0f5d2453b08e6654",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/A.png"
+    },
+    {
+      "path": "resource/image/B.png",
+      "upstream_blob": "c11603418ec6f9bf16a96463eadbd86ab902b25a",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/B.png"
+    },
+    {
+      "path": "resource/image/C.png",
+      "upstream_blob": "f14cef7ecd582a42db7515f89a3e77c9be9335bb",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/C.png"
+    },
+    {
+      "path": "resource/image/D.png",
+      "upstream_blob": "e80ab2ab8bec39d86ebf5e10dea88ae1450b6660",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/D.png"
+    },
+    {
+      "path": "resource/image/E.png",
+      "upstream_blob": "0c1346e478715737b9cd2bc5e2a8e911e9eccc63",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/E.png"
+    },
+    {
+      "path": "resource/image/F.png",
+      "upstream_blob": "342b4b80ca1a0fe07c21e556d950b73981a9157d",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/F.png"
+    },
+    {
+      "path": "resource/image/关闭提示.png",
+      "upstream_blob": "a8071b3729b62ab56690d6e1b67954bc4d812477",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/关闭提示.png"
+    },
+    {
+      "path": "resource/image/单选题.png",
+      "upstream_blob": "49d3cf4fbbd0b4d43c1e15047534bcf2a98159e9",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/单选题.png"
+    },
+    {
+      "path": "resource/image/填空题.png",
+      "upstream_blob": "8a1ffc68e0502470b59806571ce899e070cfca69",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/填空题.png"
+    },
+    {
+      "path": "resource/image/填空题视频.png",
+      "upstream_blob": "33dbbdf2f3b6b8d3fa924fd2f0d5efff0f590dc6",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/填空题视频.png"
+    },
+    {
+      "path": "resource/image/多选题.png",
+      "upstream_blob": "97cc99a0af0c8560a0cc3f7864dd397af1be702c",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/多选题.png"
+    },
+    {
+      "path": "resource/image/学习积分.png",
+      "upstream_blob": "502021d7f2ac89daaf42982fba3c79b15a051652",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/学习积分.png"
+    },
+    {
+      "path": "resource/image/我的.png",
+      "upstream_blob": "d635b836104507069679fd81e815a33284c0f927",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/我的.png"
+    },
+    {
+      "path": "resource/image/放弃答题弹窗.png",
+      "upstream_blob": "ba24cd97990b0ef1705dae324ff768bf2091038a",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/放弃答题弹窗.png"
+    },
+    {
+      "path": "resource/image/放弃答题退出.png",
+      "upstream_blob": "2d10cef7005dfb1aebad6b968dfb77fed912bf5c",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/放弃答题退出.png"
+    },
+    {
+      "path": "resource/image/文本框.png",
+      "upstream_blob": "48c4bb615eb778e901076ddd5db47d76977440e2",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/文本框.png"
+    },
+    {
+      "path": "resource/image/查看提示.png",
+      "upstream_blob": "95e03b67df2f0fd79ba6451e994eebddb0692462",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/查看提示.png"
+    },
+    {
+      "path": "resource/image/每日答题.png",
+      "upstream_blob": "969428281f48d09e97ff6e68f87816091deb2011",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/每日答题.png"
+    },
+    {
+      "path": "resource/image/点选填空题.png",
+      "upstream_blob": "5984adc1e04949596af59e68942119df56d2d22d",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/点选填空题.png"
+    },
+    {
+      "path": "resource/image/点选选择题选项1字.png",
+      "upstream_blob": "6034dccf080f54bc838a3c971794b6660657f81b",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/点选选择题选项1字.png"
+    },
+    {
+      "path": "resource/image/点选选择题选项2字.png",
+      "upstream_blob": "a6be413320f9834516e2e7c6adb4b3ccab7075d9",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/点选选择题选项2字.png"
+    },
+    {
+      "path": "resource/image/点选选择题选项3字.png",
+      "upstream_blob": "efb762dc5935d9377b387f856744b321346b0ecd",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/点选选择题选项3字.png"
+    },
+    {
+      "path": "resource/image/点选选择题选项4字.png",
+      "upstream_blob": "57c9182e442e5273cae866f978de48b68ae3f4d7",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/点选选择题选项4字.png"
+    },
+    {
+      "path": "resource/image/电视台.png",
+      "upstream_blob": "cb0a5be539d51637fafbf59197d48c5dcd3c1aa7",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/电视台.png"
+    },
+    {
+      "path": "resource/image/确定.png",
+      "upstream_blob": "2f4427f9cca845a9c758759c21cda02760449e42",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/确定.png"
+    },
+    {
+      "path": "resource/image/积分.png",
+      "upstream_blob": "e68bfc269fc563b48725ff949e7041c4b474709a",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/积分.png"
+    },
+    {
+      "path": "resource/image/积分规则.png",
+      "upstream_blob": "76438a838407dffe435f1ce1eb9522c143a2fd0f",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/积分规则.png"
+    },
+    {
+      "path": "resource/image/第一题.png",
+      "upstream_blob": "bc8b22d9a811d9060b4caf11bf9b0cc7c67f92dc",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/第一题.png"
+    },
+    {
+      "path": "resource/image/第三题.png",
+      "upstream_blob": "790297d751b8a57ed293062fe212b4ef9ac3eee9",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/第三题.png"
+    },
+    {
+      "path": "resource/image/第二题.png",
+      "upstream_blob": "9b2be4b8f6ee6287650f20f8da68384142474f80",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/第二题.png"
+    },
+    {
+      "path": "resource/image/第五题.png",
+      "upstream_blob": "cae0806a60bbde2c16fcd4c766e3700038137d7e",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/第五题.png"
+    },
+    {
+      "path": "resource/image/第四题.png",
+      "upstream_blob": "044acd85fd56769bf5703b93307dbf2a07e0dcc0",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/第四题.png"
+    },
+    {
+      "path": "resource/image/答案解析.png",
+      "upstream_blob": "39ea7a04c7ead9e9d800a614f80d50eba5b8a96a",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/答案解析.png"
+    },
+    {
+      "path": "resource/image/答错的下一题.png",
+      "upstream_blob": "558b4e679d4e88fc864c4caf733f0268f82a3e7d",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/答错的下一题.png"
+    },
+    {
+      "path": "resource/image/综合.png",
+      "upstream_blob": "324169e31ca76646270189312011971c9e580fed",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/综合.png"
+    },
+    {
+      "path": "resource/image/访问异常.png",
+      "upstream_blob": "769cb4c9a176383bc0aa9493c1b53cb6f0e45a44",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/image/访问异常.png"
+    },
+    {
+      "path": "resource/model/detect/yolo.onnx",
+      "upstream_blob": "01faf306333e0dd3c63803de9bcad248e63985e6",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/model/detect/yolo.onnx"
+    },
+    {
+      "path": "resource/model/ocr/det.onnx",
+      "upstream_blob": "9d7d58c7eb1e5a01e753b2592caa43646fe6b480",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/model/ocr/det.onnx"
+    },
+    {
+      "path": "resource/model/ocr/keys.txt",
+      "upstream_blob": "3757d1814521c6384f21b210573fd7d19e161714",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/model/ocr/keys.txt"
+    },
+    {
+      "path": "resource/model/ocr/rec.onnx",
+      "upstream_blob": "6bf0016155d25a2e18a5656f125a1c56f8fad2cf",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/model/ocr/rec.onnx"
+    },
+    {
+      "path": "resource/pipeline/actions.json",
+      "upstream_blob": "ee7f7b26bc4a380297f893378fab97cba0b9e06e",
+      "matches_upstream_blob": true,
+      "upstream_url": "https://github.com/ravizhan/MaaXuexi/blob/ff6a0d5a811c5fc987a0c0ae77ea9abaf55fa073/resource/pipeline/actions.json"
+    }
+  ]
+}

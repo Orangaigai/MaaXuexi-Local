@@ -1,0 +1,9 @@
+{
+  "mumu_cli": "C:/Program Files/Netease/MuMuPlayer/nx_main/mumu-cli.exe",
+  "vm_index": 0,
+  "adb_path": "C:/Program Files/Netease/MuMuPlayer/nx_main/adb.exe",
+  "display_width": 1280,
+  "display_height": 720,
+  "dpi": 240,
+  "app_package": "cn.xuexi.android"
+}

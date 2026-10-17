@@ -1,0 +1,17 @@
+name: 功能建议
+description: 提出明确需求和验收条件
+title: "[Feature] "
+body:
+  - type: textarea
+    attributes:
+      label: 你要解决什么问题
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 建议方案与验收条件
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 参考实现与许可证（可选）
