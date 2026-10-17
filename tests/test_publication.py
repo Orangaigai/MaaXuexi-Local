@@ -17,6 +17,18 @@ spec.loader.exec_module(checks)
 
 
 class PublicationTests(unittest.TestCase):
+    def test_zip_install_inventory_excludes_generated_local_settings(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for name in ('config/emulator.json','config/emulator.example.json',
+                         'config/source-manifest.json','logs/example.log','launcher.lnk',
+                         'backend/worker.py','backend/__pycache__/worker.pyc'):
+                path = root/name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text('{}','utf-8')
+            with patch.object(checks, 'ROOT', root):
+                self.assertEqual(checks.public_files(), ['backend/worker.py','config/emulator.example.json','config/source-manifest.json'])
+
     def test_missing_schedule_record_does_not_claim_enabled(self):
         import webui
         with tempfile.TemporaryDirectory() as directory, patch.object(webui, 'Path', return_value=Path(directory)/'missing.json'):

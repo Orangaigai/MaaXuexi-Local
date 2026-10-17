@@ -29,9 +29,18 @@ def public_files():
         result = subprocess.run(['git', 'ls-files', '--cached', '--others', '--exclude-standard', '-z'],
                                 cwd=ROOT, capture_output=True, check=True)
         return sorted(set(result.stdout.decode('utf-8').strip('\0').split('\0')) - {''})
-    return sorted(p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*')
-                  if p.is_file() and '__pycache__' not in p.parts and
-                  (len(p.relative_to(ROOT).parts) == 1 or p.relative_to(ROOT).parts[0] in FOLDERS))
+    files = []
+    for path in ROOT.rglob('*'):
+        relative = path.relative_to(ROOT)
+        if (not path.is_file() or '__pycache__' in relative.parts
+                or path.suffix.lower() in {'.pyc', '.pyo', '.lnk', '.log', '.dpapi', '.sqlite3'}):
+            continue
+        if len(relative.parts) > 1 and relative.parts[0] not in FOLDERS:
+            continue
+        if relative.parts[0] == 'config' and relative.as_posix() != MANIFEST and not path.name.endswith('.example.json'):
+            continue
+        files.append(relative.as_posix())
+    return sorted(files)
 
 
 def digest(path):
