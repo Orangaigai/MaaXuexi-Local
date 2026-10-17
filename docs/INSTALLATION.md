@@ -49,6 +49,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Register-DailyTask
 
 当前用户必须已登录，电脑开机、联网、未休眠。定时脚本使用 `pythonw.exe`，不需要一直打开终端；浏览器可以关闭，后台继续运行。电脑关机或错过触发时间时不保证补跑。暂停、验证、网络异常会影响完成度。
 
+控制页展示 `config/schedule-status.json` 的本机登记信息，不实时查询 Windows 调度器。若自行在任务计划程序中修改或删除任务，以 Windows 中的实际状态为准。
+
 删除定时任务（只删除该名称）：
 
 ```powershell

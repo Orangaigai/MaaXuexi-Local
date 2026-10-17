@@ -2,6 +2,7 @@
 import asyncio
 import json
 import os
+import re
 import threading
 import traceback
 from collections import deque
@@ -295,6 +296,22 @@ async def websocket_endpoint(websocket: WebSocket):
             await asyncio.sleep(0.1)
     except (WebSocketDisconnect, RuntimeError):
         return
+
+@app.get('/api/local/schedule')
+def get_schedule():
+    """Local registration record; never claim this is a live scheduler query."""
+    try:
+        value = json.loads(Path('config/schedule-status.json').read_text('utf-8-sig'))
+        if (not isinstance(value, dict) or value.get('enabled') is not True
+                or not re.fullmatch(r'(?:[01]\d|2[0-3]):[0-5]\d', str(value.get('time', '')))
+                or not isinstance(value.get('timezone'), str)
+                or not isinstance(value.get('task_name'), str)):
+            return dict(enabled=False, source='local_registration_record')
+        return dict(enabled=True, time=value['time'], timezone=value['timezone'],
+                    task_name=value['task_name'], source='local_registration_record')
+    except (OSError, ValueError):
+        return dict(enabled=False, source='local_registration_record')
+
 
 if __name__ == '__main__':
     import uvicorn

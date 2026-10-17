@@ -22,4 +22,9 @@ $identity = [Security.Principal.WindowsIdentity]::GetCurrent().Name
 $principal = New-ScheduledTaskPrincipal -UserId $identity -LogonType Interactive -RunLevel Limited
 $settings = New-ScheduledTaskSettingsSet -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 3) -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger $trigger -Principal $principal -Settings $settings | Out-Null
+$record = @{enabled=$true;time=('{0:D2}:{1:D2}' -f $Hour,$Minute);timezone=(Get-TimeZone).Id;task_name=$TaskName}
+$configRoot = Join-Path $appRoot 'config'
+New-Item -ItemType Directory -Path $configRoot -Force | Out-Null
+$encoding = New-Object System.Text.UTF8Encoding($false)
+[IO.File]::WriteAllText((Join-Path $configRoot 'schedule-status.json'),($record | ConvertTo-Json),$encoding)
 Write-Host ('Registered {0} at {1:D2}:{2:D2} in the current Windows time zone. The computer must be awake and this user signed in.' -f $TaskName,$Hour,$Minute)

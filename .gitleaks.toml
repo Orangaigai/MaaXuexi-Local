@@ -1,0 +1,6 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Only generated SHA-256 file digests; independently verified by Check-Publication.py"
+paths = ['''(^|/)config/source-manifest\.json$''']

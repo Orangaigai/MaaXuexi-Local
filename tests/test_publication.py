@@ -2,10 +2,12 @@
 import importlib.util
 import os
 from pathlib import Path
+import json
 import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'backend'))
@@ -15,6 +17,30 @@ spec.loader.exec_module(checks)
 
 
 class PublicationTests(unittest.TestCase):
+    def test_missing_schedule_record_does_not_claim_enabled(self):
+        import webui
+        with tempfile.TemporaryDirectory() as directory, patch.object(webui, 'Path', return_value=Path(directory)/'missing.json'):
+            self.assertFalse(webui.get_schedule()['enabled'])
+
+    def test_valid_schedule_record_preserves_actual_time_zone(self):
+        import webui
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)/'schedule.json'
+            path.write_text(json.dumps(dict(enabled=True,time='10:30',timezone='UTC',task_name='example')), 'utf-8')
+            with patch.object(webui, 'Path', return_value=path):
+                value = webui.get_schedule()
+            self.assertTrue(value['enabled'])
+            self.assertEqual((value['time'],value['timezone']),('10:30','UTC'))
+
+    def test_invalid_schedule_record_is_disabled(self):
+        import webui
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)/'schedule.json'
+            for data in ([],dict(enabled=True,time='25:70',timezone='UTC',task_name='example')):
+                path.write_text(json.dumps(data), 'utf-8')
+                with patch.object(webui, 'Path', return_value=path):
+                    self.assertFalse(webui.get_schedule()['enabled'])
+
     def test_secrets_and_personal_paths_are_reported_without_echoing_values(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
