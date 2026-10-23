@@ -12,7 +12,7 @@ MaaAgentBinary==1.0.1
 MaaFw==5.12.2
 numpy==2.5.3
 opentelemetry-api==1.45.1
-pillow==12.3.0
+pillow==13.0.0
 plyer==2.1.0
 pydantic==2.14.0
 pydantic_core==2.50.0
