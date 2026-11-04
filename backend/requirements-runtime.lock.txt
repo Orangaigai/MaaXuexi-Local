@@ -15,7 +15,7 @@ opentelemetry-api==1.45.1
 pillow==12.3.0
 plyer==2.1.0
 pydantic==2.14.0
-pydantic_core==2.50.0
+pydantic_core==2.50.1
 starlette==1.7.0
 StrEnum==0.4.15
 typing-inspection==0.4.4
